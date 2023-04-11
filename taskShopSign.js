@@ -71,7 +71,7 @@ function printTokens() {
         const item = JsonDatas.shopTokens[i];
         index++;
         item.index = index;
-        const shopName = item.shopName.replace(/京东|自营|官方|旗舰店/g, '');
+        const shopName = item.shopName?.replace(/京东|自营|官方|旗舰店/g, '');
         $.pushMsg(`${$.pad(item.index)}|${$.pad(item.days)}|${shopName}`);
     }
 }
@@ -211,8 +211,8 @@ async function signAll() {
             $.pushMsg(`${$.pad(item.index)}|失败|${signInfo.code}|${signInfo.msg}`);
         }
     }
-    // if (successList.length > 0) $.pushMsg(`成功|${JSON.stringify(successList)}`);
-    // if (signedList.length > 0) $.pushMsg(`已签|${JSON.stringify(signedList)}`);
+    if (successList.length > 0) $.pushMsg(`成功|${JSON.stringify(successList)}`);
+    if (signedList.length > 0) $.pushMsg(`已签|${JSON.stringify(signedList)}`);
     if (limitList.length > 0) $.pushMsg(`限流|${JSON.stringify(limitList)}`);
     if (invalidList.length > 0) $.pushMsg(`失效|${JSON.stringify(invalidList)}`);
 }
@@ -223,7 +223,7 @@ async function sign({token, venderId, activityId}) {
         const response = await $.get(url);
         return response.data;
     } catch (error) {
-        console.error(error);
+        $.log(error.message);
     }
 }
 
@@ -235,7 +235,7 @@ async function getSignRecord({token, venderId, activityId}) {
         const data = response.data;
         if (data.data) return data.data.days;
     } catch (error) {
-        console.error(error);
+        $.log(error.message);
     }
     return '';
 }
@@ -247,7 +247,7 @@ async function getActivityInfo(token) {
         // console.log(response.data);
         return response.data;
     } catch (error) {
-        console.error(error);
+        $.log(error.message);
     }
 }
 
@@ -255,14 +255,15 @@ async function getShopName(venderId) {
     if ($.has(JsonDatas.shops, venderId)) return JsonDatas.shops[venderId];
 
     try {
-        const url = `https://shop.m.jd.com/mshop/QueryShopMemberInfoJson?venderId=${venderId}`;
+        const url = `https://api.m.jd.com/client.action?functionId=whx_getMShopDetail&body={"venderId":"${venderId}","source":"m-shop"}&appid=shop_view`;
         let response = await $.get(url);
         const data = response.data;
         // console.log(data);
-        let shopName = data.shopName || data.shopId.toString();
+        let shopName = data?.data?.shopBaseInfo?.shopName || venderId.toString();
         JsonDatas.shops[venderId] = shopName;
         return shopName;
     } catch (error) {
-        console.error(error);
+        $.log(error.message);
+        return venderId;
     }
 }

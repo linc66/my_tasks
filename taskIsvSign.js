@@ -53,8 +53,8 @@ async function onBefore() {
 }
 
 async function initDatas() {
-    
-    const result = await $.readMyJson('isvSignTokens');
+    await $.wait(1);
+    const result = JSON.parse(process.env.ISV_SIGN);
     if (!result) return;
     $.assign(config, result);
 }
@@ -120,6 +120,7 @@ async function lzkjSign() {
     _.baseURL = 'https://lzkj-isv.isvjcloud.com';
     _.stop = false;
     for (const vo of config.lzkj) {
+        if (vo.skip) continue;
         _.activityId = vo.activityId;
         _.venderId = vo.venderId;
         _.shopName = vo.shopName;
@@ -134,6 +135,7 @@ async function lzkj7dSign() {
     _.baseURL = 'https://lzkj-isv.isvjcloud.com';
     _.stop = false;
     for (const vo of config.lzkj_7d) {
+        if (vo.skip) continue;
         _.activityId = vo.activityId;
         _.venderId = vo.venderId;
         _.shopName = vo.shopName;
@@ -148,6 +150,7 @@ async function cjhySign() {
     _.baseURL = 'https://cjhy-isv.isvjcloud.com';
     _.stop = false;
     for (const vo of config.cjhy) {
+        if (vo.skip) continue;
         _.activityId = vo.activityId;
         _.venderId = vo.venderId;
         _.shopName = vo.shopName;
@@ -162,6 +165,7 @@ async function cjhy7dSign() {
     _.baseURL = 'https://cjhy-isv.isvjcloud.com';
     _.stop = false;
     for (const vo of config.cjhy_7d) {
+        if (vo.skip) continue;
         _.activityId = vo.activityId;
         _.venderId = vo.venderId;
         _.shopName = vo.shopName;
@@ -186,12 +190,14 @@ async function signActivity(is7day = false) {
         if (!_.token) return;
         _.isvCookieMap.set('isvToken', _.token);
         await $.waitRandom(1000, 2000);
-        // await getSimpleActInfoVo();
-        // await $.waitRandom(1000, 2000);
+        await getSimpleActInfoVo();
+        await $.waitRandom(1000, 2000);
         _.secretPin = await getMyPing();
         if (!_.secretPin) return;
         await $.waitRandom(1000, 2000);
         await accessLogWithAD();
+        await $.waitRandom(1000, 2000);
+        await getInfo(is7day);
         await $.waitRandom(1000, 2000);
         await signUp(is7day);
     } catch (error) {
@@ -306,6 +312,20 @@ async function accessLogWithAD() {
     }
 }
 
+async function getInfo(is7day = false) {
+    if (is7day) return;
+    try {
+        const url = `${_.baseURL}/miniProgramShareInfo/getInfo?activityId=${_.activityId}`;
+        let response = await $.get(url);
+        resetIsvCookie(response.headers["set-cookie"]);
+        return true;
+    } catch (error) {
+        _.msgExceptions.push(_.shopName);
+        $.log(`异常|${_.shopIndex}|${_.shopName}|getInfo|${error.message}`);
+        return false;
+    }
+}
+
 async function signUp(is7day = false) {
     try {
         const url = is7day ? '/sign/sevenDay/wx/signUp' : '/sign/wx/signUp';
@@ -321,6 +341,9 @@ async function signUp(is7day = false) {
         } else if (data.msg === '当天只能签到一次') {
             $.log(`已签|${_.shopIndex}|${_.shopName}`);
             _.msgSigned.push(_.shopName);
+        } else if (data.msg == null) {
+            $.log(`失败|${_.shopIndex}|${_.shopName}|${$.toJson(data)}`);
+            _.msgFails.push(_.shopName);
         } else if (data.msg.includes('结束')) {
             $.log(`结束|${_.shopIndex}|${_.shopName}`);
             _.msgEnd.push(_.shopName);

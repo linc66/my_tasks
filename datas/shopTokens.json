@@ -1,552 +1,101 @@
 [
   {
-    "token": "6A9C826F0BD5C62A006C3B1975857BBC",
-    "shopName": "一叶子京东自营官方旗舰店",
-    "venderId": 1000009661,
-    "activityId": 10774876,
+    "token": "2D8C6F699ABFDDACAB1D84162FB87A72",
+    "fixIdx": 9,
     "vaild": true,
     "index": 1,
-    "prizeList": [
-      "7天，50 积分",
-      "7天，20 京豆",
-      "14天，80 积分",
-      "14天，50 京豆",
-      "28天，100 积分",
-      "28天，100 京豆"
-    ],
-    "beans": 100,
-    "scores": 100,
-    "rewards": 0,
-    "endTime": "2022-03-30",
-    "dailyPrizes": [
-      "每日签到[可领取]：积分[10][可领取]"
-    ],
+    "venderId": 1000372126,
+    "activityId": 11566919,
+    "days": 6,
+    "dailyPrizes": [],
     "dailyBeans": 0,
-    "dailyScores": 10,
-    "fixIdx": 1,
-    "days": 17,
+    "dailyScores": 0,
     "prizes": [
-      "连签7天[已领取]：积分[50][已领取]京豆[20][已领取]",
-      "连签14天[已领取]：积分[80][已领取]京豆[50][已领取]",
-      "连签28天[可领取]：积分[100][可领取]京豆[100][可领取]"
-    ]
+      "连签7天[可领取]：京豆[10][可领取]"
+    ],
+    "beans": 10,
+    "scores": 0
   },
   {
-    "token": "B44C348D2FCC9F6D0B81368CF658A6A1",
-    "shopName": "奇士美（kissme）京东自营旗舰店",
-    "venderId": 1000002495,
-    "activityId": 10767772,
+    "token": "0B0EC5BD1EADDF12A66873316B63E0D1",
+    "fixIdx": 9,
     "vaild": true,
     "index": 2,
-    "prizeList": [
-      "5天，50 积分",
-      "8天，99-5 券"
-    ],
-    "beans": 0,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-30",
+    "venderId": 1000009661,
+    "activityId": 11563188,
+    "shopName": "一叶子京东自营官方旗舰店",
+    "days": 7,
     "dailyPrizes": [
       "每日签到[可领取]：积分[10][可领取]"
     ],
     "dailyBeans": 0,
     "dailyScores": 10,
-    "fixIdx": 1,
-    "days": 17,
     "prizes": [
-      "连签5天[已领取]：积分[50][已领取]",
-      "连签8天[已领取]：优惠券[99-5][已领取]"
-    ]
-  },
-  {
-    "token": "2502B61C133D1D5F89FADB8318240EF5",
-    "shopName": "法兰琳卡京东自营官方旗舰店",
-    "venderId": 1000008881,
-    "activityId": 10770304,
-    "vaild": true,
-    "index": 3,
-    "prizeList": [
-      "7天，10 积分",
-      "15天，50 积分"
+      "连签7天[已领取]：积分[50][已领取]",
+      "连签14天[可领取]：积分[80][可领取]",
+      "连签21天[可领取]：积分[100][可领取]"
     ],
     "beans": 0,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-25",
+    "scores": 180
+  },
+  {
+    "token": "FD1BB75D486B2F2937776E7D9D89014B",
+    "fixIdx": 9,
+    "vaild": true,
+    "index": 3,
+    "venderId": 1000003218,
+    "activityId": 11536228,
+    "shopName": "KANS韩束京东自营旗舰店",
+    "days": 13,
     "dailyPrizes": [
       "每日签到[可领取]：积分[5][可领取]"
     ],
     "dailyBeans": 0,
     "dailyScores": 5,
-    "fixIdx": 1,
-    "days": 19,
     "prizes": [
-      "连签7天[已领取]：积分[10][已领取]",
-      "连签15天[已领取]：积分[50][已领取]"
-    ]
+      "连签30天[可领取]：积分[300][可领取]"
+    ],
+    "beans": 0,
+    "scores": 300
   },
   {
-    "token": "D265FF36491AEE42E77F1CE37814964A",
-    "shopName": "新良（良润）面粉京东自营旗舰店",
-    "venderId": 1000016581,
-    "activityId": 10773782,
+    "token": "BC447FB69DEF14B980D76E8745B7A45B",
+    "fixIdx": 9,
     "vaild": true,
     "index": 4,
-    "prizeList": [
-      "10天，10 积分",
-      "20天，30 积分",
-      "30天，50 积分"
-    ],
-    "beans": 0,
-    "scores": 80,
-    "rewards": 0,
-    "endTime": "2022-03-30",
+    "venderId": 10419035,
+    "activityId": 11576472,
+    "shopName": "搏乐旗舰店",
+    "days": 3,
     "dailyPrizes": [
-      "每日签到[可领取]：积分[1][可领取]"
+      "每日签到[可领取]：积分[5][可领取]"
     ],
     "dailyBeans": 0,
-    "dailyScores": 1,
-    "fixIdx": 1,
-    "days": 15,
+    "dailyScores": 5,
     "prizes": [
-      "连签10天[已领取]：积分[10][已领取]",
-      "连签20天[可领取]：积分[30][可领取]",
-      "连签30天[可领取]：积分[50][可领取]"
-    ]
+      "连签7天[可领取]：积分[20][可领取]"
+    ],
+    "beans": 0,
+    "scores": 20
   },
   {
-    "token": "9EB874E2402DF3090D2845B2840B7F0A",
+    "token": "EFF9689717320A6E255B1387F4CC0727",
+    "fixIdx": 9,
     "vaild": true,
     "index": 5,
-    "venderId": 1000283022,
-    "activityId": 10769738,
-    "shopName": "colorkey京东自营官方旗舰店",
-    "prizeList": [
-      "7天，30 积分",
-      "15天，50 积分",
-      "20天，70 积分",
-      "25天，100 积分",
-      "30天，150 积分"
+    "venderId": 1000412645,
+    "activityId": 11552692,
+    "days": 6,
+    "dailyPrizes": [
+      "每日签到[可领取]：积分[2][可领取]"
+    ],
+    "dailyBeans": 0,
+    "dailyScores": 2,
+    "prizes": [
+      "连签14天[可领取]：积分[50][可领取]",
+      "连签28天[可领取]：积分[200][可领取]"
     ],
     "beans": 0,
-    "scores": 370,
-    "rewards": 0,
-    "endTime": "2022-03-30",
-    "dailyPrizes": [],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 1,
-    "days": 10,
-    "prizes": [
-      "连签7天[已领取]：积分[30][已领取]",
-      "连签15天[可领取]：积分[50][可领取]",
-      "连签20天[可领取]：积分[70][可领取]",
-      "连签25天[可领取]：积分[100][可领取]",
-      "连签30天[可领取]：积分[150][可领取]"
-    ]
-  },
-  {
-    "token": "E914D6E2380F869062669FBCF9F6CE69",
-    "shopName": "宝宝巴士旗舰店",
-    "venderId": 810259,
-    "activityId": 10775731,
-    "vaild": true,
-    "index": 6,
-    "prizeList": [
-      "7天，10 京豆"
-    ],
-    "beans": 0,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-30",
-    "dailyPrizes": [
-      "每日签到[可领取]：京豆[1][可领取]"
-    ],
-    "dailyBeans": 1,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 16,
-    "prizes": [
-      "连签7天[已领取]：京豆[10][已领取]"
-    ]
-  },
-  {
-    "token": "3B0B5CF5936217F0DAF9C45049769047",
-    "vaild": true,
-    "index": 7,
-    "venderId": 1000073422,
-    "activityId": 10786881,
-    "shopName": "多力京东自营旗舰店",
-    "prizeList": [
-      "10天，100 京豆[已领完]",
-      "15天，100 京豆"
-    ],
-    "beans": 100,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-31",
-    "dailyPrizes": [
-      "每日签到[已抢完]：积分[5][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 10,
-    "prizes": [
-      "连签10天[已抢完]：京豆[100][已抢完]",
-      "连签15天[可领取]：京豆[100][可领取]"
-    ]
-  },
-  {
-    "token": "5A93F6CF514661940F12A5ECEDBC2C08",
-    "shopName": "哆猫猫京东自营旗舰店",
-    "venderId": 1000300801,
-    "activityId": 10775105,
-    "vaild": true,
-    "index": 8,
-    "prizeList": [
-      "30天，30 京豆"
-    ],
-    "beans": 30,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-30",
-    "dailyPrizes": [
-      "每日签到[可领取]：积分[1][可领取]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 1,
-    "fixIdx": 99,
-    "days": 16,
-    "prizes": [
-      "连签30天[可领取]：京豆[30][可领取]"
-    ]
-  },
-  {
-    "token": "F12DF4C5BBD9BE39112FA6620F10A280",
-    "vaild": true,
-    "index": 9,
-    "venderId": 11577092,
-    "activityId": 10785716,
-    "shopName": "智学宠物生活专营店",
-    "prizeList": [
-      "3天，5 京豆[已领完]",
-      "7天，10 京豆[已领完]",
-      "14天，15 京豆"
-    ],
-    "beans": 15,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-20",
-    "dailyPrizes": [],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 7,
-    "prizes": [
-      "连签3天[已抢完]：京豆[5][已抢完]",
-      "连签7天[已抢完]：京豆[10][已抢完]",
-      "连签14天[可领取]：京豆[15][可领取]"
-    ]
-  },
-  {
-    "token": "ED0E9E159C9A7DB907DE28542D043BB9",
-    "vaild": true,
-    "index": 10,
-    "venderId": 1000002483,
-    "activityId": 10777796,
-    "shopName": "谜尚京东自营官方旗舰店",
-    "prizeList": [
-      "7天，2 京豆[已领完]",
-      "14天，5 京豆",
-      "21天，10 京豆"
-    ],
-    "beans": 10,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-31",
-    "dailyPrizes": [
-      "每日签到[已抢完]：积分[10][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 16,
-    "prizes": [
-      "连签7天[已领取]：京豆[2][已领取]",
-      "连签14天[已领取]：京豆[5][已领取]",
-      "连签21天[可领取]：京豆[10][可领取]"
-    ]
-  },
-  {
-    "token": "239C233E230F2AB36E6565D1131B852E",
-    "vaild": true,
-    "index": 11,
-    "venderId": 1000078272,
-    "activityId": 10800240,
-    "shopName": "西夫拉姆葡萄酒京东自营旗舰店",
-    "endTime": "2022-03-31",
-    "dailyPrizes": [
-      "每日签到[已抢完]：积分[20][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "prizeList": [
-      "7天，10 京豆"
-    ],
-    "beans": 10,
-    "scores": 0,
-    "days": 2,
-    "prizes": [
-      "连签7天[可领取]：京豆[10][可领取]"
-    ],
-    "fixIdx": 99
-  },
-  {
-    "token": "113946C00C676DD5141D46EF6194E281",
-    "vaild": true,
-    "index": 12,
-    "venderId": 1000086223,
-    "activityId": 10796897,
-    "shopName": "圃美多京东自营旗舰店",
-    "endTime": "2022-04-08",
-    "prizeList": [
-      "7天，1 积分",
-      "15天，2 京豆",
-      "30天，5 京豆"
-    ],
-    "beans": 7,
-    "scores": 0,
-    "dailyPrizes": [
-      "每日签到[已抢完]：积分[10][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 3,
-    "prizes": [
-      "连签7天[已抢完]：积分[1][已抢完]",
-      "连签15天[可领取]：京豆[2][可领取]",
-      "连签30天[可领取]：京豆[5][可领取]"
-    ]
-  },
-  {
-    "token": "4F2CF4B77EF54315023FF86FD51D6796",
-    "vaild": true,
-    "index": 13,
-    "venderId": 1000072603,
-    "activityId": 10798576,
-    "shopName": "类人首葡萄酒京东自营旗舰店",
-    "endTime": "2022-04-09",
-    "prizeList": [
-      "3天，2 京豆[已领完]",
-      "7天，3 京豆",
-      "15天，5 京豆"
-    ],
-    "beans": 5,
-    "scores": 0,
-    "dailyPrizes": [
-      "每日签到[已抢完]：京豆[1][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 5,
-    "prizes": [
-      "连签3天[已抢完]：京豆[2][已抢完]",
-      "连签7天[已抢完]：京豆[3][已抢完]",
-      "连签15天[可领取]：京豆[5][可领取]"
-    ]
-  },
-  {
-    "token": "F79BFCB0102C47A0D4DCEE7FA034C0C1",
-    "vaild": true,
-    "index": 14,
-    "venderId": 1000110642,
-    "activityId": 10800094,
-    "shopName": "冠芳京东自营旗舰店",
-    "endTime": "2022-03-31",
-    "dailyPrizes": [
-      "每日签到[已抢完]：京豆[1][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "prizeList": [
-      "7天，5 京豆"
-    ],
-    "beans": 5,
-    "scores": 0,
-    "days": 2,
-    "prizes": [
-      "连签7天[可领取]：京豆[5][可领取]"
-    ],
-    "fixIdx": 99
-  },
-  {
-    "token": "42872057C69C3612D5461895E61C54BF",
-    "vaild": true,
-    "index": 15,
-    "venderId": 1000116944,
-    "activityId": 10776772,
-    "shopName": "马丁京东自营旗舰店",
-    "endTime": "2022-03-30",
-    "prizeList": [
-      "7天，20 京豆[已领完]"
-    ],
-    "beans": 0,
-    "scores": 0,
-    "dailyPrizes": [
-      "每日签到[可领取]：积分[20][可领取]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 20,
-    "fixIdx": 99,
-    "days": 2,
-    "prizes": [
-      "连签7天[已抢完]：京豆[20][已抢完]"
-    ]
-  },
-  {
-    "token": "22C81EC2EE4B7A7B475CFE264894A743",
-    "vaild": true,
-    "index": 16,
-    "venderId": 1000305081,
-    "activityId": 10774165,
-    "shopName": "拜耳保健品京东自营旗舰店",
-    "prizeList": [
-      "5天，3 京豆[已领完]",
-      "10天，50 积分[已领完]",
-      "21天，300 积分"
-    ],
-    "beans": 0,
-    "scores": 300,
-    "rewards": 0,
-    "endTime": "2022-03-30",
-    "dailyPrizes": [],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 2,
-    "prizes": [
-      "连签5天[已抢完]：京豆[3][已抢完]",
-      "连签10天[已抢完]：积分[50][已抢完]",
-      "连签21天[可领取]：积分[300][可领取]"
-    ]
-  },
-  {
-    "token": "9DE0806161F9094B11379DE3D5E2DA32",
-    "vaild": true,
-    "index": 17,
-    "venderId": 1000328882,
-    "activityId": 10769677,
-    "shopName": "FARMACY海外京东自营旗舰店",
-    "endTime": "2022-03-30",
-    "prizeList": [
-      "7天，50 积分",
-      "7天，5 京豆[已领完]"
-    ],
-    "beans": 0,
-    "scores": 50,
-    "dailyPrizes": [
-      "每日签到[已抢完]：京豆[2][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 1,
-    "prizes": [
-      "连签7天[可领取]：积分[50][可领取]京豆[5][已抢完]"
-    ]
-  },
-  {
-    "token": "B6D45CBE79819E9EFE01E875B034AE02",
-    "vaild": true,
-    "index": 18,
-    "venderId": 10255626,
-    "activityId": 10779921,
-    "shopName": "SMARTGAMES官方旗舰店",
-    "prizeList": [
-      "1天，5 积分[已领完]",
-      "3天，10 积分[已领完]",
-      "7天，5 京豆[已领完]",
-      "15天，10 京豆",
-      "30天，30 积分"
-    ],
-    "beans": 0,
-    "scores": 30,
-    "rewards": 0,
-    "endTime": "2022-03-31",
-    "dailyPrizes": [],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 1,
-    "prizes": [
-      "连签1天[已领取]：积分[5][已领取]",
-      "连签3天[已领取]：积分[10][已领取]",
-      "连签7天[已领取]：京豆[5][已领取]",
-      "连签15天[已抢完]：京豆[10][已抢完]",
-      "连签30天[可领取]：积分[30][可领取]"
-    ]
-  },
-  {
-    "token": "1B3CD5FBF930E8B28C221EEF6CDEC0E4",
-    "vaild": true,
-    "index": 19,
-    "venderId": 1000003218,
-    "activityId": 10775127,
-    "shopName": "KANS韩束京东自营旗舰店",
-    "prizeList": [
-      "1天，5 积分",
-      "2天，10 积分",
-      "3天，15 积分",
-      "4天，20 积分",
-      "5天，40 积分"
-    ],
-    "beans": 0,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-30",
-    "dailyPrizes": [],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 17,
-    "prizes": [
-      "连签1天[已领取]：积分[5][已领取]",
-      "连签2天[已领取]：积分[10][已领取]",
-      "连签3天[已领取]：积分[15][已领取]",
-      "连签4天[已领取]：积分[20][已领取]",
-      "连签5天[已领取]：积分[40][已领取]"
-    ]
-  },
-  {
-    "token": "E32A11E8D0F109206A55188A5DE09C4E",
-    "vaild": true,
-    "index": 20,
-    "venderId": 1000001828,
-    "activityId": 10767475,
-    "shopName": "超能京东自营官方旗舰店",
-    "prizeList": [
-      "3天，50 积分",
-      "7天，50 京豆[已领完]",
-      "15天，100 京豆"
-    ],
-    "beans": 0,
-    "scores": 0,
-    "rewards": 0,
-    "endTime": "2022-03-31",
-    "dailyPrizes": [
-      "每日签到[已抢完]：积分[10][已抢完]"
-    ],
-    "dailyBeans": 0,
-    "dailyScores": 0,
-    "fixIdx": 99,
-    "days": 16,
-    "prizes": [
-      "连签3天[已领取]：积分[50][已领取]",
-      "连签7天[已领取]：京豆[50][已领取]",
-      "连签15天[已领取]：京豆[100][已领取]"
-    ]
+    "scores": 250
   }
 ]
