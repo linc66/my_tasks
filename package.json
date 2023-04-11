@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0",
+    "crypto-js": "^4.1.1",
+    "got": "9.6.0",
+    "lodash": "^4.17.21",
+    "tough-cookie": "^4.0.0",
+    "utility": "^1.17.0",
+    "uuid": "^8.3.2"
+  }
+}

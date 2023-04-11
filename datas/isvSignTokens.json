@@ -1,0 +1,280 @@
+{
+	"lzkj": [
+		{
+			"activityId": "0f50c2e08516435ea060da76bc6d55c7",
+			"shopName": "伊利",
+			"venderId": 1000013402,
+			"activityType": 15
+		},
+		{
+			"activityId": "933f036fbdd947658b491cad1d5bce74",
+			"shopName": "a2至初",
+			"venderId": 1000006644,
+			"activityType": 15
+		},
+		{
+			"activityId": "f4480455323b46e2a3a20ae147418d8c",
+			"shopName": "雪花秀",
+			"venderId": 1000010825,
+			"activityType": 15
+		},
+		{
+			"activityId": "e368871da5954f88a80dd3e9318aef84",
+			"shopName": "大力智能1",
+			"venderId": 1000330405,
+			"activityType": 15
+		},
+		{
+			"activityId": "63145166e7a04b28a602279606611595",
+			"shopName": "3M",
+			"venderId": 1000005554,
+			"activityType": 15
+		},
+		{
+			"activityId": "22bf35cc3fa3423d83831865d7bf5df7",
+			"shopName": "联合利华",
+			"venderId": 1000003663,
+			"activityType": 15
+		},
+		{
+			"activityId": "7f5bd066874844da9ed744ad4ac1a32e",
+			"shopName": "御泥坊1",
+			"venderId": 1000003002,
+			"activityType": 15
+		},
+		{
+			"activityId": "4bcc33a3d8c74c959c10f470eb464e93",
+			"shopName": "OLAY玉兰油",
+			"venderId": 1000002499,
+			"activityType": 15
+		},
+		{
+			"activityId": "d6ffc126cc144bd6bb36aeeb8a868f51",
+			"shopName": "小奥汀",
+			"venderId": 1000102641,
+			"activityType": 15
+		},
+		{
+			"activityId": "f81c7d5248e54b7b9efb55cde2a3b89a",
+			"shopName": "三只松鼠",
+			"venderId": 1000015268,
+			"activityType": 15
+		},
+		{
+			"activityId": "7c16bd569639477dab9e7d9e58ad0e4b",
+			"shopName": "得力",
+			"venderId": 1000001132,
+			"activityType": 15
+		},
+		{
+			"activityId": "accb55c7e7874b4d895eb90e30f208c4",
+			"shopName": "卡西欧",
+			"venderId": 1000003571,
+			"activityType": 15
+		},
+		{
+			"activityId": "ed7e63117dc741c7a47311e822de0eca",
+			"shopName": "宝洁",
+			"venderId": 1000004064,
+			"activityType": 15
+		}
+	],
+	"lzkj_7d": [
+		{
+			"activityId": "5dd294cfcc19412f8853939d94b73260",
+			"shopName": "德亚牛奶",
+			"venderId": 1000012545,
+			"activityType": 18
+		},
+		{
+			"activityId": "e9ad39ca98634263b2639d0906ac111d",
+			"shopName": "佳贝艾特1",
+			"venderId": 1000002710,
+			"activityType": 18
+		},
+		{
+			"activityId": "4792dddd82b4429392c5d81bf5c456d1",
+			"shopName": "罗马仕数码配件",
+			"venderId": 671985,
+			"activityType": 18
+		},
+		{
+			"activityId": "df78d3d915f7440a9bda46c755700354",
+			"shopName": "法国娇韵诗",
+			"venderId": 1000002983,
+			"activityType": 18
+		}
+	],
+	"cjhy": [
+		{
+			"activityId": "f3479d184b2e4becb275e44b9c23c699",
+			"shopName": "御泥坊",
+			"venderId": 1000003002,
+			"activityType": 15
+		},
+		{
+			"activityId": "427f8d705f59401c8ffc4fe95eeb7761",
+			"shopName": "大力智能2",
+			"venderId": 1000330405,
+			"activityType": 15
+		},
+		{
+			"activityId": "3b068d6e09094338b6603837bece0d16",
+			"shopName": "希芸",
+			"venderId": 1000378941,
+			"activityType": 15
+		},
+		{
+			"activityId": "08b0223b73ec4425b0b638bed67011bb",
+			"shopName": "子初",
+			"venderId": 1000008165,
+			"activityType": 15
+		},
+		{
+			"activityId": "3952c24dc9bd49b4ac79daa8d2ef4572",
+			"shopName": "曼秀雷敦",
+			"venderId": 1000003180,
+			"activityType": 15
+		},
+		{
+			"activityId": "b97c4e6df8b8487bb053fbafcab70970",
+			"shopName": "花王妙而舒",
+			"venderId": 1000102384,
+			"activityType": 15
+		},
+		{
+			"activityId": "7e9c1473d12b4efa964d6fb6f8bc12e7",
+			"shopName": "布鲁可",
+			"venderId": 1000168241,
+			"activityType": 15
+		},
+		{
+			"activityId": "6851b825ebf44261810dee3c0b38fbe0",
+			"shopName": "佳贝艾特2",
+			"venderId": 12180113,
+			"activityType": 15
+		},
+		{
+			"activityId": "db350b7fb1e3442d8902f98ebcf26a74",
+			"shopName": "佳贝艾特3",
+			"venderId": 30797,
+			"activityType": 15
+		},
+		{
+			"activityId": "0d4f98bab47b4b27b8f02457b7d7c02f",
+			"shopName": "苏秘",
+			"venderId": 1000085373,
+			"activityType": 15
+		},
+		{
+			"activityId": "6a99719efa034159a38f90c47ba9c9be",
+			"shopName": "和路雪",
+			"venderId": 1000101893,
+			"activityType": 15
+		},
+		{
+			"activityId": "6005e973f5584a85987f7b6d353a5eb9",
+			"shopName": "元气森林",
+			"venderId": 1000101562,
+			"activityType": 15
+		},
+		{
+			"activityId": "96b27ed80dea4b168dc62892575b1430",
+			"shopName": "Bubs",
+			"venderId": 1000100563,
+			"activityType": 15
+		},
+		{
+			"activityId": "01b3e381d94b44fe92f0555a776107ca",
+			"shopName": "卡姿兰",
+			"venderId": 1000002523,
+			"activityType": 15
+		},
+		{
+			"activityId": "a11d63d071984c55ad05cc8289e0e017",
+			"shopName": "后",
+			"venderId": 1000007502,
+			"activityType": 15
+		},
+		{
+			"activityId": "3032ae0a177443349952b726aa01da51",
+			"shopName": "燕京啤酒",
+			"venderId": 1000004680,
+			"activityType": 15
+		},
+		{
+			"activityId": "88a237c4662d44be9cbc93b7f33b20f8",
+			"shopName": "小米",
+			"venderId": 1000004123,
+			"activityType": 15
+		},
+		{
+			"activityId": "6c0f9b8a2d6f495fa2f818a105783edd",
+			"shopName": "顾家自营",
+			"venderId": 1000102063,
+			"activityType": 15
+		},
+		{
+			"activityId": "6c0f9b8a2d6f495fa2f818a105783edd",
+			"shopName": "顾家官方",
+			"venderId": 64217,
+			"activityType": 15
+		},
+		{
+			"activityId": "7a9aaf7e60c54dfbb77a67f937d73204",
+			"shopName": "良品铺子",
+			"venderId": 26426,
+			"activityType": 15
+		}
+	],
+	"cjhy_7d": [
+		{
+			"activityId": "49e457f9ada1457897f78a817e6c9c43",
+			"shopName": "御泥坊",
+			"venderId": 1000003002,
+			"activityType": 18
+		},
+		{
+			"activityId": "e1778e8490b44336a58172db2f63296f",
+			"shopName": "科沃斯",
+			"venderId": 1000002989,
+			"activityType": 18
+		},
+		{
+			"activityId": "21032d3c41ef4c819dbae9493d99b413",
+			"shopName": "曼秀雷敦男士",
+			"venderId": 1000225581,
+			"activityType": 18
+		},
+		{
+			"activityId": "28934530bbd043ecbfc9ece27ac905a5",
+			"shopName": "黑人牙膏",
+			"venderId": 1000002300,
+			"activityType": 18
+		},
+		{
+			"activityId": "fda34508e0be407184814414dd7e0df4",
+			"shopName": "罗马仕自营",
+			"venderId": 1000000121,
+			"activityType": 18
+		},
+		{
+			"activityId": "69ca5014edee486582839de27ce739b4",
+			"shopName": "罗马仕数码",
+			"venderId": 671985,
+			"activityType": 18
+		},
+		{
+			"activityId": "0333784783e74f9791289c3c086d564b",
+			"shopName": "追光智能",
+			"venderId": 10828169,
+			"activityType": 18
+		},
+		{
+			"activityId": "2d3a35ea346f43e59e6930bf286bb51d",
+			"shopName": "小天鹅",
+			"venderId": 1000002505,
+			"activityType": 18
+		}
+	]
+}
