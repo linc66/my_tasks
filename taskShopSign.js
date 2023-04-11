@@ -1,6 +1,6 @@
 /*
 店铺签到
-cron: 43 0,14 * * *
+cron: 43 0,21 * * * taskShopSign.js
 */
 const Env = require("./Env");
 const $ = new Env("店铺签到");
